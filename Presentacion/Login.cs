@@ -54,7 +54,15 @@ namespace Presentacion
                     frmPrin.lbl_Roles.Visible = false;
 
                 }
-               
+                if (nombre == "Vendedor" )
+                {
+                   
+                    Ventas usulog = new Ventas();
+                    usulog.lblUsuarios_Venta.Text = usuario;
+                  
+                  
+
+                }
             }
             else
             {

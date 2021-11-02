@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using Capa_Entidad;
 using Capa_Datos;
 using System.Data;
-using System.Data.SqlClient;
 
 namespace Capa_Negocio
 {
@@ -23,11 +22,6 @@ namespace Capa_Negocio
         public DataTable consultaLocalUsuario(Usuario usu_Legajo)
         {
             return ventita.consultaLocalUsuario(usu_Legajo);
-        }
-
-        public DataTable ConsultaLocal()
-        {
-            return ventita.ConsultaLocal();
         }
     }
 }

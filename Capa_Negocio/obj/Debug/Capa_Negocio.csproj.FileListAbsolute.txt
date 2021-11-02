@@ -9,13 +9,3 @@ C:\Users\Erica\Documents\Visual Studio 2019\Projects\TrabajoIntegrador_Fabrizzi\
 C:\Users\Erica\Documents\Visual Studio 2019\Projects\TrabajoIntegrador_Fabrizzi\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CopyComplete
 C:\Users\Erica\Documents\Visual Studio 2019\Projects\TrabajoIntegrador_Fabrizzi\Capa_Negocio\obj\Debug\Capa_Negocio.dll
 C:\Users\Erica\Documents\Visual Studio 2019\Projects\TrabajoIntegrador_Fabrizzi\Capa_Negocio\obj\Debug\Capa_Negocio.pdb
-C:\Users\Usuario\Desktop\TrabajoIntegrador_Fabrizzi\Capa_Negocio\bin\Debug\Capa_Negocio.dll
-C:\Users\Usuario\Desktop\TrabajoIntegrador_Fabrizzi\Capa_Negocio\bin\Debug\Capa_Negocio.pdb
-C:\Users\Usuario\Desktop\TrabajoIntegrador_Fabrizzi\Capa_Negocio\bin\Debug\Capa_Datos.dll
-C:\Users\Usuario\Desktop\TrabajoIntegrador_Fabrizzi\Capa_Negocio\bin\Debug\Capa_Entidad.dll
-C:\Users\Usuario\Desktop\TrabajoIntegrador_Fabrizzi\Capa_Negocio\bin\Debug\Capa_Datos.pdb
-C:\Users\Usuario\Desktop\TrabajoIntegrador_Fabrizzi\Capa_Negocio\bin\Debug\Capa_Entidad.pdb
-C:\Users\Usuario\Desktop\TrabajoIntegrador_Fabrizzi\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.AssemblyReference.cache
-C:\Users\Usuario\Desktop\TrabajoIntegrador_Fabrizzi\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\Desktop\TrabajoIntegrador_Fabrizzi\Capa_Negocio\obj\Debug\Capa_Negocio.dll
-C:\Users\Usuario\Desktop\TrabajoIntegrador_Fabrizzi\Capa_Negocio\obj\Debug\Capa_Negocio.pdb

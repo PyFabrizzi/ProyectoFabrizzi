@@ -30,6 +30,9 @@ namespace Presentacion
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblLegajo = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.lblUsuarios_Venta = new System.Windows.Forms.Label();
             this.lbl_TitVentas = new System.Windows.Forms.Label();
             this.btn_CerrarUsuAlta = new System.Windows.Forms.Button();
             this.dgvVentas = new System.Windows.Forms.DataGridView();
@@ -53,8 +56,6 @@ namespace Presentacion
             this.label9 = new System.Windows.Forms.Label();
             this.btn_ImprimirVentas = new System.Windows.Forms.Button();
             this.Btn_GuardarVentaProductos = new System.Windows.Forms.Button();
-            this.cboxLocal = new System.Windows.Forms.ComboBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVentas)).BeginInit();
             this.SuspendLayout();
@@ -62,6 +63,9 @@ namespace Presentacion
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.Controls.Add(this.lblLegajo);
+            this.panel1.Controls.Add(this.label10);
+            this.panel1.Controls.Add(this.lblUsuarios_Venta);
             this.panel1.Controls.Add(this.lbl_TitVentas);
             this.panel1.Controls.Add(this.btn_CerrarUsuAlta);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -70,12 +74,46 @@ namespace Presentacion
             this.panel1.Size = new System.Drawing.Size(956, 86);
             this.panel1.TabIndex = 72;
             // 
+            // lblLegajo
+            // 
+            this.lblLegajo.AutoSize = true;
+            this.lblLegajo.Font = new System.Drawing.Font("Segoe UI Symbol", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLegajo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblLegajo.Location = new System.Drawing.Point(629, 26);
+            this.lblLegajo.Name = "lblLegajo";
+            this.lblLegajo.Size = new System.Drawing.Size(53, 17);
+            this.lblLegajo.TabIndex = 104;
+            this.lblLegajo.Text = "Legajo";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI Symbol", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label10.Location = new System.Drawing.Point(696, 49);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(43, 17);
+            this.label10.TabIndex = 103;
+            this.label10.Text = "Local";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
+            // 
+            // lblUsuarios_Venta
+            // 
+            this.lblUsuarios_Venta.AutoSize = true;
+            this.lblUsuarios_Venta.Font = new System.Drawing.Font("Segoe UI Symbol", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuarios_Venta.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblUsuarios_Venta.Location = new System.Drawing.Point(696, 26);
+            this.lblUsuarios_Venta.Name = "lblUsuarios_Venta";
+            this.lblUsuarios_Venta.Size = new System.Drawing.Size(60, 17);
+            this.lblUsuarios_Venta.TabIndex = 102;
+            this.lblUsuarios_Venta.Text = "Usuario";
+            // 
             // lbl_TitVentas
             // 
             this.lbl_TitVentas.AutoSize = true;
             this.lbl_TitVentas.Font = new System.Drawing.Font("Segoe UI Symbol", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_TitVentas.ForeColor = System.Drawing.Color.White;
-            this.lbl_TitVentas.Location = new System.Drawing.Point(324, 26);
+            this.lbl_TitVentas.Location = new System.Drawing.Point(296, 26);
             this.lbl_TitVentas.Name = "lbl_TitVentas";
             this.lbl_TitVentas.Size = new System.Drawing.Size(242, 40);
             this.lbl_TitVentas.TabIndex = 83;
@@ -86,7 +124,7 @@ namespace Presentacion
             this.btn_CerrarUsuAlta.BackColor = System.Drawing.Color.SeaGreen;
             this.btn_CerrarUsuAlta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.btn_CerrarUsuAlta.ForeColor = System.Drawing.Color.White;
-            this.btn_CerrarUsuAlta.Location = new System.Drawing.Point(856, 26);
+            this.btn_CerrarUsuAlta.Location = new System.Drawing.Point(886, 26);
             this.btn_CerrarUsuAlta.Name = "btn_CerrarUsuAlta";
             this.btn_CerrarUsuAlta.Size = new System.Drawing.Size(39, 23);
             this.btn_CerrarUsuAlta.TabIndex = 65;
@@ -115,6 +153,7 @@ namespace Presentacion
             this.txtCodProd.Name = "txtCodProd";
             this.txtCodProd.Size = new System.Drawing.Size(166, 20);
             this.txtCodProd.TabIndex = 83;
+            this.txtCodProd.TextChanged += new System.EventHandler(this.txtCodProd_TextChanged);
             // 
             // textBox2
             // 
@@ -153,7 +192,7 @@ namespace Presentacion
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(619, 390);
+            this.textBox7.Location = new System.Drawing.Point(584, 389);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 20);
             this.textBox7.TabIndex = 89;
@@ -177,7 +216,7 @@ namespace Presentacion
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Symbol", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(618, 413);
+            this.label1.Location = new System.Drawing.Point(583, 412);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(101, 17);
             this.label1.TabIndex = 92;
@@ -294,26 +333,6 @@ namespace Presentacion
             this.Btn_GuardarVentaProductos.TabIndex = 102;
             this.Btn_GuardarVentaProductos.Text = "Guardar";
             this.Btn_GuardarVentaProductos.UseVisualStyleBackColor = false;
-            this.Btn_GuardarVentaProductos.Click += new System.EventHandler(this.Btn_GuardarVentaProductos_Click);
-            // 
-            // cboxLocal
-            // 
-            this.cboxLocal.FormattingEnabled = true;
-            this.cboxLocal.Location = new System.Drawing.Point(414, 389);
-            this.cboxLocal.Name = "cboxLocal";
-            this.cboxLocal.Size = new System.Drawing.Size(124, 21);
-            this.cboxLocal.TabIndex = 103;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI Symbol", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label8.Location = new System.Drawing.Point(435, 413);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(43, 17);
-            this.label8.TabIndex = 104;
-            this.label8.Text = "Local";
             // 
             // Ventas
             // 
@@ -321,8 +340,6 @@ namespace Presentacion
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(50)))), ((int)(((byte)(61)))));
             this.ClientSize = new System.Drawing.Size(956, 534);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.cboxLocal);
             this.Controls.Add(this.Btn_GuardarVentaProductos);
             this.Controls.Add(this.btn_ImprimirVentas);
             this.Controls.Add(this.label9);
@@ -382,7 +399,8 @@ namespace Presentacion
         public System.Windows.Forms.Label label7;
         public System.Windows.Forms.Label Descripcion;
         public System.Windows.Forms.Label label9;
-        public System.Windows.Forms.Label label8;
-        public System.Windows.Forms.ComboBox cboxLocal;
+        public System.Windows.Forms.Label label10;
+        public System.Windows.Forms.Label lblUsuarios_Venta;
+        public System.Windows.Forms.Label lblLegajo;
     }
 }

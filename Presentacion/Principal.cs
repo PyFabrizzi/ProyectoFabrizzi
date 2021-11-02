@@ -154,6 +154,8 @@ namespace Presentacion
         private void lblVentas_Click(object sender, EventArgs e)
         {
             Ventas venta = new Ventas();
+            venta.lblUsuarios_Venta.Text = lbl_Usuario.Text;
+            venta.lblLegajo.Text = lbl_Legajo.Text;
             venta.Show();
 
 

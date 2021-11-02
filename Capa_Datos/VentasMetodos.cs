@@ -36,16 +36,5 @@ namespace Capa_Datos
 
             return dt;
         }
-
-        public DataTable ConsultaLocal()
-        {
-            var sqlStr = "select * from Locales";
-            var da = new SqlDataAdapter(sqlStr, conectar());
-            var ds = new DataSet();
-            da.Fill(ds);
-            DataTable dt = ds.Tables[0];
-
-            return dt;
-        }
     }
 }

@@ -14,36 +14,26 @@ namespace Presentacion
 {
     public partial class Ventas : Form
     {
-        VentaNegocio vn = new VentaNegocio();
-        DataTable dt2 = new DataTable();
+       
 
         public Ventas()
         {
             InitializeComponent();
+            autocompletar();
           
 
         }
-
-        public void Ventas_Load(object sender, EventArgs e)
+        Usuario usu_idLocal = new Usuario();
+        int legajo = 0;
+        int local = 0;
+        DataTable dt2 = new DataTable();
+        VentaNegocio vn = new VentaNegocio();
+        private void Ventas_Load(object sender, EventArgs e)
         {
-
-
-            autocompletar();
-            dt2 = vn.ConsultaLocal();
-            cboxLocal.DataSource = dt2;
-            cboxLocal.DisplayMember = "loc_IdDir";
-            cboxLocal.ValueMember = "loc_IdDir";
-
-
+            //legajo = Convert.ToInt32( lblLegajo.Text);
+            //dt2 = vn.ConsultaLocalUsuario(usu_legajo);
+           // if ()
         }
-
-
-
-
-
-
-
-
 
         void autocompletar()
         {
@@ -66,7 +56,6 @@ namespace Presentacion
 
         public void dgvVentas_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
             if (txtCodProd.TextLength.ToString() != "")
             {
 
@@ -78,9 +67,13 @@ namespace Presentacion
             this.Close();
         }
 
-        private void Btn_GuardarVentaProductos_Click(object sender, EventArgs e)
+        private void txtCodProd_TextChanged(object sender, EventArgs e)
         {
-            DialogResult resp = MessageBox.Show("Desea generar esta nueva venta?", "Nueva Venta", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
 
         }
     }
