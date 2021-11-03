@@ -52,7 +52,6 @@ C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion
 C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.CambioProductosClientes.resources
 C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.DevolucionProductosDeposito.resources
 C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.Direcciones.resources
-C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.Listado_Materias_Primas.resources
 C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.Locales.resources
 C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.LocalesListado.resources
 C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.Login.resources

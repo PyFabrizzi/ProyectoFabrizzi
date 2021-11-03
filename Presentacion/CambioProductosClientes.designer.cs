@@ -29,8 +29,6 @@ namespace Presentacion
         /// </summary>
         private void InitializeComponent()
         {
-            this.label10 = new System.Windows.Forms.Label();
-            this.lbl = new System.Windows.Forms.Label();
             this.lbl_TitVentas = new System.Windows.Forms.Label();
             this.btn_CerrarUsuAlta = new System.Windows.Forms.Button();
             this.btn_ImprimirCambioProductosClientes = new System.Windows.Forms.Button();
@@ -60,28 +58,6 @@ namespace Presentacion
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI Symbol", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label10.Location = new System.Drawing.Point(721, 49);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(43, 17);
-            this.label10.TabIndex = 103;
-            this.label10.Text = "Local";
-            // 
-            // lbl
-            // 
-            this.lbl.AutoSize = true;
-            this.lbl.Font = new System.Drawing.Font("Segoe UI Symbol", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl.Location = new System.Drawing.Point(721, 26);
-            this.lbl.Name = "lbl";
-            this.lbl.Size = new System.Drawing.Size(60, 17);
-            this.lbl.TabIndex = 102;
-            this.lbl.Text = "Usuario";
-            // 
             // lbl_TitVentas
             // 
             this.lbl_TitVentas.AutoSize = true;
@@ -110,7 +86,7 @@ namespace Presentacion
             this.btn_ImprimirCambioProductosClientes.BackColor = System.Drawing.Color.SeaGreen;
             this.btn_ImprimirCambioProductosClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ImprimirCambioProductosClientes.ForeColor = System.Drawing.Color.White;
-            this.btn_ImprimirCambioProductosClientes.Location = new System.Drawing.Point(795, 144);
+            this.btn_ImprimirCambioProductosClientes.Location = new System.Drawing.Point(676, 143);
             this.btn_ImprimirCambioProductosClientes.Name = "btn_ImprimirCambioProductosClientes";
             this.btn_ImprimirCambioProductosClientes.Size = new System.Drawing.Size(140, 39);
             this.btn_ImprimirCambioProductosClientes.TabIndex = 122;
@@ -122,7 +98,7 @@ namespace Presentacion
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI Symbol", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label9.Location = new System.Drawing.Point(803, 397);
+            this.label9.Location = new System.Drawing.Point(663, 397);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(86, 17);
             this.label9.TabIndex = 121;
@@ -144,7 +120,7 @@ namespace Presentacion
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI Symbol", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(668, 397);
+            this.label7.Location = new System.Drawing.Point(504, 397);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(76, 17);
             this.label7.TabIndex = 119;
@@ -155,7 +131,7 @@ namespace Presentacion
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI Symbol", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(746, 321);
+            this.label6.Location = new System.Drawing.Point(673, 321);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(61, 17);
             this.label6.TabIndex = 118;
@@ -219,14 +195,14 @@ namespace Presentacion
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(792, 374);
+            this.textBox9.Location = new System.Drawing.Point(657, 374);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(107, 20);
             this.textBox9.TabIndex = 112;
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(657, 374);
+            this.textBox8.Location = new System.Drawing.Point(496, 374);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(107, 20);
             this.textBox8.TabIndex = 111;
@@ -240,7 +216,7 @@ namespace Presentacion
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(724, 298);
+            this.textBox6.Location = new System.Drawing.Point(655, 298);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(109, 20);
             this.textBox6.TabIndex = 109;
@@ -290,20 +266,18 @@ namespace Presentacion
             this.dgvCamioProductosClientes.Name = "dgvCamioProductosClientes";
             this.dgvCamioProductosClientes.ReadOnly = true;
             this.dgvCamioProductosClientes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvCamioProductosClientes.Size = new System.Drawing.Size(761, 154);
+            this.dgvCamioProductosClientes.Size = new System.Drawing.Size(624, 154);
             this.dgvCamioProductosClientes.TabIndex = 103;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
-            this.panel1.Controls.Add(this.label10);
-            this.panel1.Controls.Add(this.lbl);
             this.panel1.Controls.Add(this.lbl_TitVentas);
             this.panel1.Controls.Add(this.btn_CerrarUsuAlta);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(947, 86);
+            this.panel1.Size = new System.Drawing.Size(860, 86);
             this.panel1.TabIndex = 102;
             // 
             // label8
@@ -330,7 +304,7 @@ namespace Presentacion
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(50)))), ((int)(((byte)(61)))));
-            this.ClientSize = new System.Drawing.Size(947, 457);
+            this.ClientSize = new System.Drawing.Size(860, 531);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBox10);
             this.Controls.Add(this.btn_ImprimirCambioProductosClientes);
@@ -356,6 +330,7 @@ namespace Presentacion
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CambioProductosClientes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CambioProductosClientes";
             ((System.ComponentModel.ISupportInitialize)(this.dgvCamioProductosClientes)).EndInit();
             this.panel1.ResumeLayout(false);
@@ -366,9 +341,6 @@ namespace Presentacion
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label lbl;
         private System.Windows.Forms.Label lbl_TitVentas;
         private System.Windows.Forms.Button btn_CerrarUsuAlta;
         private System.Windows.Forms.Button btn_ImprimirCambioProductosClientes;

@@ -45,7 +45,7 @@ namespace Capa_Datos
 
         public DataTable ConsultarMateria()
         {
-            var sqlStr = "select mpri_CodArt, mpri_Descripcion,mpri_tipo,mpri_Cantidad,p.pro_RazonSocial from MateriasPrimas m,Proveedores p where m.mpri_CUITprov =p.pro_CUIT ;";
+            var sqlStr = "select mpri_CodArt, mpri_Descripcion,mpri_tipo,mpri_subtipo,mpri_Cantidad,p.pro_RazonSocial from MateriasPrimas m,Proveedores p where m.mpri_CUITprov =p.pro_CUIT ;";
             var da = new SqlDataAdapter(sqlStr, conectar());
             var ds = new DataSet();
             da.Fill(ds);
