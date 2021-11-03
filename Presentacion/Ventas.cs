@@ -9,45 +9,48 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Capa_Entidad;
 using Capa_Negocio;
+using System.Drawing.Printing;
 
 namespace Presentacion
 {
     public partial class Ventas : Form
     {
-       
+
 
         public Ventas()
         {
             InitializeComponent();
-            autocompletar();
-          
+            //autocompletar();
+
+            LocalNegocio LocNeg = new LocalNegocio();
+            dt = LocNeg.ConsultarLocales();
+            cboxLocal.DataSource = dt;
+
+            if (dt.Rows.Count != 0)
+            {
+                DataRow fila = dt.NewRow();
+                fila["loc_IdLoc"] = "Seleccione";
+                dt.Rows.InsertAt(fila, 0);
+                cboxLocal.DataSource = dt; ;
+                cboxLocal.DisplayMember = "loc_IdLoc";
+                cboxLocal.ValueMember = "loc_Nombre";
+
+
+
+            }
 
         }
-        Usuario usu_idLocal = new Usuario();
-        int legajo = 0;
-        int local = 0;
-        DataTable dt2 = new DataTable();
+       
+        DataTable dt = new DataTable();
         VentaNegocio vn = new VentaNegocio();
         private void Ventas_Load(object sender, EventArgs e)
         {
-            //legajo = Convert.ToInt32( lblLegajo.Text);
-            //dt2 = vn.ConsultaLocalUsuario(usu_legajo);
-           // if ()
+           
+
+
         }
 
-        void autocompletar()
-        {
-            //AutoCompleteStringCollection lista = new AutoCompleteStringCollection();
-            //usu_idLocal = local.;
-            //DataTable dt = new DataTable();
-            //VentaNegocio item = new VentaNegocio();
-            //dt = item.VentaConsultarStock(usu_idLocal);
-            //for (int i = 0; i < dt.Rows.Count; i++)
-            //{
-            //    lista.Add(dt.Rows[i][""].ToString());
-            //}
-            //txtCodProd.AutoCompleteCustomSource = lista;
-        }
+      
 
         private void btn_CerrarUsuAlta_Click(object sender, EventArgs e)
         {
@@ -75,6 +78,17 @@ namespace Presentacion
         private void label10_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void imprimir(object sender, PrintPageEventArgs e)
+        {
+
+        }
+
+        private void btn_ImprimirVentas_Click(object sender, EventArgs e)
+        {
+            printDocument1 = new PrintDocument();
+            PrinterSettings sc = new PrinterSettings();
         }
     }
 }

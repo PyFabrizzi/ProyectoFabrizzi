@@ -20,3 +20,14 @@ C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Capa_Negocio\obj\Debug\Capa_Negocio
 C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CopyComplete
 C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Capa_Negocio\obj\Debug\Capa_Negocio.dll
 C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Capa_Negocio\obj\Debug\Capa_Negocio.pdb
+C:\Users\Usuario\Desktop\ProyectoFabrizzi\Capa_Negocio\bin\Debug\Capa_Negocio.dll
+C:\Users\Usuario\Desktop\ProyectoFabrizzi\Capa_Negocio\bin\Debug\Capa_Negocio.pdb
+C:\Users\Usuario\Desktop\ProyectoFabrizzi\Capa_Negocio\bin\Debug\Capa_Datos.dll
+C:\Users\Usuario\Desktop\ProyectoFabrizzi\Capa_Negocio\bin\Debug\Capa_Entidad.dll
+C:\Users\Usuario\Desktop\ProyectoFabrizzi\Capa_Negocio\bin\Debug\Capa_Datos.pdb
+C:\Users\Usuario\Desktop\ProyectoFabrizzi\Capa_Negocio\bin\Debug\Capa_Entidad.pdb
+C:\Users\Usuario\Desktop\ProyectoFabrizzi\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\ProyectoFabrizzi\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\ProyectoFabrizzi\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CopyComplete
+C:\Users\Usuario\Desktop\ProyectoFabrizzi\Capa_Negocio\obj\Debug\Capa_Negocio.dll
+C:\Users\Usuario\Desktop\ProyectoFabrizzi\Capa_Negocio\obj\Debug\Capa_Negocio.pdb

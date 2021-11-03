@@ -16,3 +16,11 @@ C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Capa_Datos\obj\Debug\Capa_Datos.csp
 C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Capa_Datos\obj\Debug\Capa_Datos.csproj.CopyComplete
 C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Capa_Datos\obj\Debug\Capa_Datos.dll
 C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Capa_Datos\obj\Debug\Capa_Datos.pdb
+C:\Users\Usuario\Desktop\ProyectoFabrizzi\Capa_Datos\bin\Debug\Capa_Datos.dll
+C:\Users\Usuario\Desktop\ProyectoFabrizzi\Capa_Datos\bin\Debug\Capa_Datos.pdb
+C:\Users\Usuario\Desktop\ProyectoFabrizzi\Capa_Datos\bin\Debug\Capa_Entidad.dll
+C:\Users\Usuario\Desktop\ProyectoFabrizzi\Capa_Datos\bin\Debug\Capa_Entidad.pdb
+C:\Users\Usuario\Desktop\ProyectoFabrizzi\Capa_Datos\obj\Debug\Capa_Datos.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\ProyectoFabrizzi\Capa_Datos\obj\Debug\Capa_Datos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\ProyectoFabrizzi\Capa_Datos\obj\Debug\Capa_Datos.dll
+C:\Users\Usuario\Desktop\ProyectoFabrizzi\Capa_Datos\obj\Debug\Capa_Datos.pdb
