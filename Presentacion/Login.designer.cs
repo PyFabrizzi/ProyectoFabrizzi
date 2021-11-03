@@ -61,11 +61,11 @@
             this.lbl_user.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.lbl_user.AutoSize = true;
             this.lbl_user.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_user.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_user.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.lbl_user.ForeColor = System.Drawing.Color.White;
             this.lbl_user.Location = new System.Drawing.Point(66, 128);
             this.lbl_user.Name = "lbl_user";
-            this.lbl_user.Size = new System.Drawing.Size(56, 16);
+            this.lbl_user.Size = new System.Drawing.Size(52, 17);
             this.lbl_user.TabIndex = 2;
             this.lbl_user.Text = "Legajo";
             // 
@@ -73,18 +73,18 @@
             // 
             this.lbl_pass.AutoSize = true;
             this.lbl_pass.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_pass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_pass.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.lbl_pass.ForeColor = System.Drawing.Color.White;
             this.lbl_pass.Location = new System.Drawing.Point(66, 163);
             this.lbl_pass.Name = "lbl_pass";
-            this.lbl_pass.Size = new System.Drawing.Size(87, 16);
+            this.lbl_pass.Size = new System.Drawing.Size(84, 17);
             this.lbl_pass.TabIndex = 3;
             this.lbl_pass.Text = "Contraseña";
             // 
             // Btn_Ingresar
             // 
             this.Btn_Ingresar.BackColor = System.Drawing.Color.SeaGreen;
-            this.Btn_Ingresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Ingresar.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.Btn_Ingresar.ForeColor = System.Drawing.Color.White;
             this.Btn_Ingresar.Location = new System.Drawing.Point(186, 208);
             this.Btn_Ingresar.Name = "Btn_Ingresar";

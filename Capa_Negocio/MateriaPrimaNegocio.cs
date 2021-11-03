@@ -24,5 +24,15 @@ namespace Capa_Negocio
         {
             return objMateriaPrimaMetodo.ConsultarMatPrimaporProv(ProvRS);
         }
+
+        public DataTable ConsultarMatPrimaporTipo(String Tipo)
+        {
+            return objMateriaPrimaMetodo.ConsultarMatPrimaporTipo(Tipo);
+        }
+
+        public DataTable ConsultarMatPrimaporProvyTipo(String RzSocial, String Tipo)
+        {
+            return objMateriaPrimaMetodo.ConsultarMatPrimaporProvyTipo(RzSocial,Tipo);
+        }
     }
 }

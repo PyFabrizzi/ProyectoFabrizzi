@@ -39,3 +39,44 @@ C:\Users\Erica\Documents\Visual Studio 2019\Projects\TrabajoIntegrador_Fabrizzi\
 C:\Users\Erica\Documents\Visual Studio 2019\Projects\TrabajoIntegrador_Fabrizzi\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
 C:\Users\Erica\Documents\Visual Studio 2019\Projects\TrabajoIntegrador_Fabrizzi\Presentacion\obj\Debug\Presentacion.exe
 C:\Users\Erica\Documents\Visual Studio 2019\Projects\TrabajoIntegrador_Fabrizzi\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\bin\Debug\Capa_Entidad.dll
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\bin\Debug\Capa_Negocio.dll
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\bin\Debug\Capa_Datos.dll
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\bin\Debug\Capa_Entidad.pdb
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\bin\Debug\Capa_Negocio.pdb
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\bin\Debug\Capa_Datos.pdb
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.CambioProductosClientes.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.DevolucionProductosDeposito.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.Direcciones.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.Listado_Materias_Primas.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.Locales.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.LocalesListado.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.Login.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.MateriasPrimas.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.MateriasPrimasListado.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.OlvideMiContraseña.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.F_Principal.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.Productos.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.ProductosListado.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.Proveedores.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.ProveedoresListado.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.ProveedoresModificar.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.Registro_Pedido_Locales.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.Roles.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.RolesListado.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.RolesModificar.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.Rotacion_De_Productos_Deposito.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.UsuarioModificar.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.UsuariosListado.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.Usuarios_Alta.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.Ventas.resources
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Presentacion\obj\Debug\Presentacion.pdb
