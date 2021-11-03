@@ -64,12 +64,6 @@
     <Compile Include="Direcciones.designer.cs">
       <DependentUpon>Direcciones.cs</DependentUpon>
     </Compile>
-    <Compile Include="Listado Materias Primas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Listado Materias Primas.designer.cs">
-      <DependentUpon>Listado Materias Primas.cs</DependentUpon>
-    </Compile>
     <Compile Include="Locales.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,11 +138,11 @@
     <Compile Include="ProveedoresModificar.designer.cs">
       <DependentUpon>ProveedoresModificar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Registro Pedido Locales.cs">
+    <Compile Include="RegistroPedidoLocales.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Registro Pedido Locales.designer.cs">
-      <DependentUpon>Registro Pedido Locales.cs</DependentUpon>
+    <Compile Include="RegistroPedidoLocales.designer.cs">
+      <DependentUpon>RegistroPedidoLocales.cs</DependentUpon>
     </Compile>
     <Compile Include="Roles.cs">
       <SubType>Form</SubType>
@@ -207,9 +201,6 @@
     <EmbeddedResource Include="Direcciones.resx">
       <DependentUpon>Direcciones.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Listado Materias Primas.resx">
-      <DependentUpon>Listado Materias Primas.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Locales.resx">
       <DependentUpon>Locales.cs</DependentUpon>
     </EmbeddedResource>
@@ -255,8 +246,8 @@
     <EmbeddedResource Include="ProveedoresModificar.resx">
       <DependentUpon>ProveedoresModificar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Registro Pedido Locales.resx">
-      <DependentUpon>Registro Pedido Locales.cs</DependentUpon>
+    <EmbeddedResource Include="RegistroPedidoLocales.resx">
+      <DependentUpon>RegistroPedidoLocales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Roles.resx">
       <DependentUpon>Roles.cs</DependentUpon>
