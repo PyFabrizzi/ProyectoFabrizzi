@@ -77,7 +77,7 @@
             this.lbl_Proveedores.AutoSize = true;
             this.lbl_Proveedores.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Proveedores.ForeColor = System.Drawing.Color.White;
-            this.lbl_Proveedores.Location = new System.Drawing.Point(16, 337);
+            this.lbl_Proveedores.Location = new System.Drawing.Point(16, 322);
             this.lbl_Proveedores.Name = "lbl_Proveedores";
             this.lbl_Proveedores.Size = new System.Drawing.Size(163, 29);
             this.lbl_Proveedores.TabIndex = 4;
@@ -89,7 +89,7 @@
             this.lbl_MatPrimas.AutoSize = true;
             this.lbl_MatPrimas.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_MatPrimas.ForeColor = System.Drawing.Color.White;
-            this.lbl_MatPrimas.Location = new System.Drawing.Point(16, 193);
+            this.lbl_MatPrimas.Location = new System.Drawing.Point(16, 176);
             this.lbl_MatPrimas.Name = "lbl_MatPrimas";
             this.lbl_MatPrimas.Size = new System.Drawing.Size(201, 29);
             this.lbl_MatPrimas.TabIndex = 5;
@@ -101,7 +101,7 @@
             this.lbl_productos.AutoSize = true;
             this.lbl_productos.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_productos.ForeColor = System.Drawing.Color.White;
-            this.lbl_productos.Location = new System.Drawing.Point(16, 291);
+            this.lbl_productos.Location = new System.Drawing.Point(16, 273);
             this.lbl_productos.Name = "lbl_productos";
             this.lbl_productos.Size = new System.Drawing.Size(131, 29);
             this.lbl_productos.TabIndex = 6;
@@ -113,7 +113,7 @@
             this.lbl_Pedidos.AutoSize = true;
             this.lbl_Pedidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Pedidos.ForeColor = System.Drawing.Color.White;
-            this.lbl_Pedidos.Location = new System.Drawing.Point(16, 243);
+            this.lbl_Pedidos.Location = new System.Drawing.Point(16, 225);
             this.lbl_Pedidos.Name = "lbl_Pedidos";
             this.lbl_Pedidos.Size = new System.Drawing.Size(110, 29);
             this.lbl_Pedidos.TabIndex = 7;
@@ -124,7 +124,7 @@
             this.lbl_Usuario.AutoSize = true;
             this.lbl_Usuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Usuario.ForeColor = System.Drawing.Color.White;
-            this.lbl_Usuario.Location = new System.Drawing.Point(703, 26);
+            this.lbl_Usuario.Location = new System.Drawing.Point(680, 26);
             this.lbl_Usuario.Name = "lbl_Usuario";
             this.lbl_Usuario.Size = new System.Drawing.Size(51, 16);
             this.lbl_Usuario.TabIndex = 8;
@@ -135,7 +135,7 @@
             this.lbl_Legajo.AutoSize = true;
             this.lbl_Legajo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Legajo.ForeColor = System.Drawing.Color.White;
-            this.lbl_Legajo.Location = new System.Drawing.Point(703, 47);
+            this.lbl_Legajo.Location = new System.Drawing.Point(680, 56);
             this.lbl_Legajo.Name = "lbl_Legajo";
             this.lbl_Legajo.Size = new System.Drawing.Size(41, 15);
             this.lbl_Legajo.TabIndex = 9;
@@ -146,7 +146,7 @@
             this.lbl_Fecha.AutoSize = true;
             this.lbl_Fecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Fecha.ForeColor = System.Drawing.Color.White;
-            this.lbl_Fecha.Location = new System.Drawing.Point(703, 71);
+            this.lbl_Fecha.Location = new System.Drawing.Point(680, 85);
             this.lbl_Fecha.Name = "lbl_Fecha";
             this.lbl_Fecha.Size = new System.Drawing.Size(41, 15);
             this.lbl_Fecha.TabIndex = 10;
@@ -157,7 +157,7 @@
             this.btn_CerrarLogin.BackColor = System.Drawing.Color.SeaGreen;
             this.btn_CerrarLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_CerrarLogin.ForeColor = System.Drawing.Color.White;
-            this.btn_CerrarLogin.Location = new System.Drawing.Point(21, 404);
+            this.btn_CerrarLogin.Location = new System.Drawing.Point(39, 419);
             this.btn_CerrarLogin.Name = "btn_CerrarLogin";
             this.btn_CerrarLogin.Size = new System.Drawing.Size(140, 39);
             this.btn_CerrarLogin.TabIndex = 23;
@@ -187,7 +187,7 @@
             this.lblVentas.AutoSize = true;
             this.lblVentas.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVentas.ForeColor = System.Drawing.Color.White;
-            this.lblVentas.Location = new System.Drawing.Point(26, 366);
+            this.lblVentas.Location = new System.Drawing.Point(16, 371);
             this.lblVentas.Name = "lblVentas";
             this.lblVentas.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lblVentas.Size = new System.Drawing.Size(92, 29);
@@ -200,7 +200,7 @@
             this.lbl_Locales.AutoSize = true;
             this.lbl_Locales.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Locales.ForeColor = System.Drawing.Color.White;
-            this.lbl_Locales.Location = new System.Drawing.Point(16, 143);
+            this.lbl_Locales.Location = new System.Drawing.Point(16, 130);
             this.lbl_Locales.Name = "lbl_Locales";
             this.lbl_Locales.Size = new System.Drawing.Size(104, 29);
             this.lbl_Locales.TabIndex = 24;

@@ -56,7 +56,7 @@ namespace Capa_Datos
 
         public DataTable ConsultarMatPrimaporProv(String ProvRS)
         {
-            var sqlStr = "select  mpri_CodArt, mpri_Descripcion,mpri_tipo,mpri_Cantidad,p.pro_RazonSocial from MateriasPrimas,Proveedores p where mpri_CUITprov = pro_CUIT and mpri_CUITprov ='" + ProvRS + "';";
+            var sqlStr = "select  mpri_CodArt, mpri_Descripcion,mpri_tipo,mpri_subtipo, mpri_Cantidad,p.pro_RazonSocial from MateriasPrimas,Proveedores p where mpri_CUITprov = pro_CUIT and mpri_CUITprov ='" + ProvRS + "';";
             var da = new SqlDataAdapter(sqlStr, conectar());
             var ds = new DataSet();
             da.Fill(ds);
@@ -65,5 +65,28 @@ namespace Capa_Datos
             return dt;
         }
 
+        public DataTable ConsultarMatPrimaporTipo(String Tipo)
+        {
+            var sqlStr = "select  mpri_CodArt, mpri_Descripcion,mpri_tipo,mpri_subtipo, mpri_Cantidad,p.pro_RazonSocial from MateriasPrimas,Proveedores p where mpri_CUITprov = pro_CUIT and mpri_tipo ='" + Tipo + "';";
+            var da = new SqlDataAdapter(sqlStr, conectar());
+            var ds = new DataSet();
+            da.Fill(ds);
+            DataTable dt = ds.Tables[0];
+
+            return dt;
+        }
+
+        public DataTable ConsultarMatPrimaporProvyTipo(String Cuit, String Tipo)
+        {
+            var sqlStr = "select  mpri_CodArt, mpri_Descripcion,mpri_tipo,mpri_subtipo, mpri_Cantidad,p.pro_RazonSocial from MateriasPrimas,Proveedores p where mpri_CUITprov = pro_CUIT and pro_CUIT ='" + Cuit + "' and  mpri_tipo ='" + Tipo + "';";
+            var da = new SqlDataAdapter(sqlStr, conectar());
+            var ds = new DataSet();
+            da.Fill(ds);
+            DataTable dt = ds.Tables[0];
+
+            return dt;
+        }
+
+
     }
-}//Erika prueba
+}

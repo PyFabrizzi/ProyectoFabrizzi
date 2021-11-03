@@ -140,8 +140,7 @@
             "Seleccione",
             "De Confección",
             "De Corte",
-            "Maquinarias",
-            "Otros"});
+            "Maquinarias"});
             this.cBox_Tipo.Location = new System.Drawing.Point(214, 184);
             this.cBox_Tipo.Name = "cBox_Tipo";
             this.cBox_Tipo.Size = new System.Drawing.Size(195, 21);

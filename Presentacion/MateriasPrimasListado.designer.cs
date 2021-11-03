@@ -40,8 +40,6 @@ namespace Presentacion
             this.btn_ModifProv = new System.Windows.Forms.Button();
             this.btn_ImprimirProv = new System.Windows.Forms.Button();
             this.btn_NuevoProv = new System.Windows.Forms.Button();
-            this.cbox_subitpo = new System.Windows.Forms.ComboBox();
-            this.lbl_subtipo = new System.Windows.Forms.Label();
             this.cBox_Tipo = new System.Windows.Forms.ComboBox();
             this.lbl_Tipo = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -113,13 +111,12 @@ namespace Presentacion
             this.dgv_ListMateriaPrima.AllowUserToDeleteRows = false;
             this.dgv_ListMateriaPrima.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_ListMateriaPrima.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_ListMateriaPrima.Location = new System.Drawing.Point(25, 242);
+            this.dgv_ListMateriaPrima.Location = new System.Drawing.Point(36, 218);
             this.dgv_ListMateriaPrima.Name = "dgv_ListMateriaPrima";
             this.dgv_ListMateriaPrima.ReadOnly = true;
             this.dgv_ListMateriaPrima.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_ListMateriaPrima.Size = new System.Drawing.Size(777, 154);
+            this.dgv_ListMateriaPrima.Size = new System.Drawing.Size(777, 74);
             this.dgv_ListMateriaPrima.TabIndex = 77;
-      //      this.dgv_ListMateriaPrima.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_ListProv_CellContentClick);
             // 
             // cBox_ProveedorBuscar
             // 
@@ -184,26 +181,6 @@ namespace Presentacion
             this.btn_NuevoProv.Text = "Actualizar Stock";
             this.btn_NuevoProv.UseVisualStyleBackColor = false;
             // 
-            // cbox_subitpo
-            // 
-            this.cbox_subitpo.FormattingEnabled = true;
-            this.cbox_subitpo.Location = new System.Drawing.Point(418, 174);
-            this.cbox_subitpo.Name = "cbox_subitpo";
-            this.cbox_subitpo.Size = new System.Drawing.Size(195, 21);
-            this.cbox_subitpo.TabIndex = 95;
-            // 
-            // lbl_subtipo
-            // 
-            this.lbl_subtipo.AutoSize = true;
-            this.lbl_subtipo.Font = new System.Drawing.Font("Segoe UI Symbol", 9.75F, System.Drawing.FontStyle.Bold);
-            this.lbl_subtipo.ForeColor = System.Drawing.Color.Cornsilk;
-            this.lbl_subtipo.Location = new System.Drawing.Point(347, 174);
-            this.lbl_subtipo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbl_subtipo.Name = "lbl_subtipo";
-            this.lbl_subtipo.Size = new System.Drawing.Size(64, 17);
-            this.lbl_subtipo.TabIndex = 94;
-            this.lbl_subtipo.Text = "Subtipo:";
-            // 
             // cBox_Tipo
             // 
             this.cBox_Tipo.FormattingEnabled = true;
@@ -211,19 +188,19 @@ namespace Presentacion
             "Seleccione",
             "De Confección",
             "De Corte",
-            "Maquinarias",
-            "Otros"});
-            this.cBox_Tipo.Location = new System.Drawing.Point(101, 174);
+            "Maquinarias"});
+            this.cBox_Tipo.Location = new System.Drawing.Point(130, 170);
             this.cBox_Tipo.Name = "cBox_Tipo";
             this.cBox_Tipo.Size = new System.Drawing.Size(195, 21);
             this.cBox_Tipo.TabIndex = 93;
+            this.cBox_Tipo.SelectedIndexChanged += new System.EventHandler(this.cBox_Tipo_SelectedIndexChanged);
             // 
             // lbl_Tipo
             // 
             this.lbl_Tipo.AutoSize = true;
             this.lbl_Tipo.Font = new System.Drawing.Font("Segoe UI Symbol", 9.75F, System.Drawing.FontStyle.Bold);
             this.lbl_Tipo.ForeColor = System.Drawing.Color.Cornsilk;
-            this.lbl_Tipo.Location = new System.Drawing.Point(42, 174);
+            this.lbl_Tipo.Location = new System.Drawing.Point(81, 174);
             this.lbl_Tipo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Tipo.Name = "lbl_Tipo";
             this.lbl_Tipo.Size = new System.Drawing.Size(42, 17);
@@ -236,8 +213,6 @@ namespace Presentacion
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(50)))), ((int)(((byte)(61)))));
             this.ClientSize = new System.Drawing.Size(860, 531);
-            this.Controls.Add(this.cbox_subitpo);
-            this.Controls.Add(this.lbl_subtipo);
             this.Controls.Add(this.cBox_Tipo);
             this.Controls.Add(this.lbl_Tipo);
             this.Controls.Add(this.btn_BajaProv);
@@ -275,8 +250,6 @@ namespace Presentacion
         public System.Windows.Forms.Button btn_ModifProv;
         private System.Windows.Forms.Button btn_ImprimirProv;
         private System.Windows.Forms.Button btn_NuevoProv;
-        private System.Windows.Forms.ComboBox cbox_subitpo;
-        public System.Windows.Forms.Label lbl_subtipo;
         private System.Windows.Forms.ComboBox cBox_Tipo;
         public System.Windows.Forms.Label lbl_Tipo;
     }

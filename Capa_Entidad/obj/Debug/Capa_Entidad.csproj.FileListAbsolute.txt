@@ -4,3 +4,8 @@ C:\Users\Erica\Documents\Visual Studio 2019\Projects\TrabajoIntegrador_Fabrizzi\
 C:\Users\Erica\Documents\Visual Studio 2019\Projects\TrabajoIntegrador_Fabrizzi\Capa_Entidad\obj\Debug\Capa_Entidad.dll
 C:\Users\Erica\Documents\Visual Studio 2019\Projects\TrabajoIntegrador_Fabrizzi\Capa_Entidad\obj\Debug\Capa_Entidad.pdb
 C:\Users\Erica\Documents\Visual Studio 2019\Projects\TrabajoIntegrador_Fabrizzi\Capa_Entidad\obj\Debug\Capa_Entidad.csproj.AssemblyReference.cache
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Capa_Entidad\bin\Debug\Capa_Entidad.dll
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Capa_Entidad\bin\Debug\Capa_Entidad.pdb
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Capa_Entidad\obj\Debug\Capa_Entidad.csproj.CoreCompileInputs.cache
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Capa_Entidad\obj\Debug\Capa_Entidad.dll
+C:\Users\Erica\Source\Repos\ProyectoFabrizzi\Capa_Entidad\obj\Debug\Capa_Entidad.pdb
